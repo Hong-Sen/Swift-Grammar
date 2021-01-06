@@ -39,5 +39,38 @@ case .some(let value):
 }
 
 
+//옵셔널 추출
+//옵셔널 바인딩
+//1. if-let
+func printName(name:String){
+    print(name)
+}
 
+var myName:String? = nil
+if let name:String = myName{
+    printName(name: name)
+}
+else{
+    print("myName = nil")
+}
+
+var yourName:String? = nil
+
+if let name = myName, let friend = yourName{
+    print("\(name) and \(friend)")
+}
+
+yourName = "dan"
+
+if let name = myName, let friend = yourName{
+    print("\(name) and \(friend)")
+}
+
+//2. 강제추출
+var myName1:String? = "yagom"
+var yourName1:String!=nil
+printName(name: myName1!)  //!를 붙여서 강제추출(만약 nil인 경우 런타임 오류가 발생)
+myName1 = nil
+//printName(name: yourName1)
+//print(myName1!) 런타임오류
 
