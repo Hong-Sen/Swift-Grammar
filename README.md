@@ -15,7 +15,7 @@
    + 데이터를 전달할 때 값을 복사하여 전달
    
 + EX)
-   +struct
+  +struct
  ```swift
  struct ValueType {
     var property = 1
@@ -39,3 +39,4 @@ secondClassReference.property = 2
 print("first class reference property : \(firstClassReference.property)")    // 출력:2
 print("second class reference property : \(secondClassReference.property)")  // 출력:2
 ```
+
