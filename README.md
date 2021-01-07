@@ -16,20 +16,19 @@
    
 + ex
    + struct
- ```swift
- struct ValueType {
+   ```
+    struct ValueType {
     var property = 1
-}
-let firstStructInstance = ValueType()
-var secondStructInstance = firstStructInstance  //복사
-secondStructInstance.property = 2
-print("first struct instance property : \(firstStructInstance.property)")    // 출력:1
-print("second struct instance property : \(secondStructInstance.property)")  // 출력:2
- ```
- 
+  }
+  let firstStructInstance = ValueType()
+  var secondStructInstance = firstStructInstance  //복사
+  secondStructInstance.property = 2
+  print("first struct instance property : \(firstStructInstance.property)")    // 출력:1
+  print("second struct instance property : \(secondStructInstance.property)")  // 출력:2
+  ```
    + class
-  ```swift
-  class ReferenceType {
+```swift
+class ReferenceType {
     var property = 1
 }
 let firstClassReference = ReferenceType()
@@ -38,5 +37,4 @@ secondClassReference.property = 2
 
 print("first class reference property : \(firstClassReference.property)")    // 출력:2
 print("second class reference property : \(secondClassReference.property)")  // 출력:2
-```
 
