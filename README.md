@@ -2,20 +2,20 @@
  
  1. Class와 Struct 차이점
  
-|Class|Struct|
+||Class|Struct|
 |------|---|---|
 |type|reference|value|
 |상속|O|X|
 |extension|O|O|
 
 + reference
-  + 데이터르 전달하 때 값의 메모리 위치를 전달
+  + 데이터를 전달할 때 값의 메모리 위치를 전달
 
  + value
    + 데이터르 전달할 때 값을 복사하여 전달
    
  +EX)
-  +struct
+   +struct
   ```swift
  struct ValueType {
     var property = 1
