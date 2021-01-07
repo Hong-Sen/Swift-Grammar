@@ -14,7 +14,7 @@
 + value
    + 데이터를 전달할 때 값을 복사하여 전달
    
-+ EX)
++ ex
   +struct
  ```swift
  struct ValueType {
