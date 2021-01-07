@@ -11,10 +11,10 @@
 + reference
   + 데이터를 전달할 때 값의 메모리 위치를 전달
 
- + value
++ value
    + 데이터르 전달할 때 값을 복사하여 전달
    
- +EX)
++ EX)
    +struct
   ```swift
  struct ValueType {
